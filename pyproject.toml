@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mousecontrolv2"
+version = "0.1.0"
+description = ""
+authors = ["gokberk <mgokberkoguz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.3"
+Flask-SocketIO = "^5.4.1"
+PyAutoGUI = "^0.9.54"
+qrcode = "^8.0"
+win10toast = "^0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
